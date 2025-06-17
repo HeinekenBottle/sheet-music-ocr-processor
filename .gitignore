@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+/tmp/
+logs/
+
+# API Keys and secrets
+.env
+*.key
+secrets.json
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Large files and media
+*.pdf
+*.tif
+*.jpg
+*.png
+*.wav
+*.mp3
+
+# Processing outputs
+organized/
+staging/raw_scans/*.pdf
+staging/processed/
+staging/usb_transfer/
+
+# Backup directories
+*backup*
+*_old/
+*_backup_*/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Reports (keep structure but not actual reports)
+reports/*.txt
+reports/*.json
+!reports/.gitkeep
+
+# USB and external drive paths
+/Volumes/
+/media/
+/mnt/

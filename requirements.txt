@@ -1,0 +1,24 @@
+# Sheet Music Digitization System Dependencies
+# Core system requirements for OCR, PDF processing, and file organization
+
+# HTTP requests for OCR.space API
+requests>=2.28.0
+
+# PDF processing and metadata manipulation
+pypdf>=3.0.0
+
+# Optional: Enhanced OCR capabilities
+# tesseract-python>=0.1.0
+# opencv-python>=4.7.0
+
+# Development and testing
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
+
+# Note: This system uses only Python standard library plus:
+# - requests: For OCR.space API calls
+# - pypdf: For PDF metadata and processing
+# All other functionality uses built-in modules:
+# - pathlib, os, sys, re, json, time, logging, shutil
+# - typing, dataclasses, datetime
