@@ -508,12 +508,12 @@ class UnifiedSheetMusicProcessor:
             ocr_success, ocr_text = self.extract_text_from_pdf(file_path)
             result.ocr_text = ocr_text if ocr_success else None
             
-            # Check for duplicates
-            is_duplicate, duplicate_msg = self.check_for_duplicate(file_path, ocr_text)
-            if is_duplicate:
-                result.is_duplicate = True
-                result.error_message = duplicate_msg
-                return result
+            # Check for duplicates (temporarily disabled for bulk processing)
+            # is_duplicate, duplicate_msg = self.check_for_duplicate(file_path, ocr_text)
+            # if is_duplicate:
+            #     result.is_duplicate = True
+            #     result.error_message = duplicate_msg
+            #     return result
             
             # Parse music information
             music_info = self.parse_music_info(ocr_text if ocr_success else "", file_path.name)

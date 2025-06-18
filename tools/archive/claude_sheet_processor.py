@@ -242,39 +242,9 @@ class SheetMusicProcessor:
     def extract_text_with_ocr(self, file_path: Path) -> str:
         """Use OCR.space to extract text from sheet music"""
         
-        # Handle different file types
-        if file_path.suffix.lower() == '.pdf':
-            # Convert PDF to image for OCR
-            try:
-                images = pdf2image.convert_from_path(file_path, dpi=300, first_page=1, last_page=1)
-                if not images:
-                    raise Exception("Could not convert PDF to image")
-                    
-                img = images[0]
-                img_path = self.temp_dir / f"{file_path.stem}_page1.png"
-                img.save(img_path, "PNG", optimize=True, quality=85)
-                
-            except ImportError:
-                self.logger.error("pdf2image not available - cannot process PDF files")
-                raise Exception("PDF processing requires pdf2image and poppler")
-            except Exception as e:
-                self.logger.error(f"Failed to convert PDF to image: {e}")
-                raise
-        else:
-            # Handle image files directly (TIF, PNG, JPG)
-            try:
-                img = Image.open(file_path)
-                # Convert to PNG if needed
-                img_path = self.temp_dir / f"{file_path.stem}_ocr.png"
-                img.save(img_path, "PNG", optimize=True, quality=85)
-                
-            except Exception as e:
-                self.logger.error(f"Failed to process image file: {e}")
-                raise
-            
-        # Call OCR.space API
+        # Use direct PDF processing like main_processor.py - no image conversion needed
         try:
-            with open(img_path, 'rb') as f:
+            with open(file_path, 'rb') as f:
                 files = {'file': f}
                 data = {
                     'apikey': self.ocr_api_key,
@@ -284,7 +254,7 @@ class SheetMusicProcessor:
                     'OCREngine': '2',  # Use engine 2 for better accuracy
                     'detectOrientation': 'true',
                     'isTable': 'false',  # Not a table document
-                    'filetype': 'PDF',  # Specify file type
+                    'filetype': 'PDF' if file_path.suffix.lower() == '.pdf' else 'JPG',
                     'isCreateSearchablePdf': 'false'  # We only need text
                 }
                 
@@ -300,7 +270,7 @@ class SheetMusicProcessor:
                 
             result = response.json()
             
-            if not result.get('IsErroredOnProcessing', True):
+            if not result.get('IsErroredOnProcessing', False):
                 # Extract text from all parsed results
                 text_results = []
                 for parsed_result in result.get('ParsedResults', []):
@@ -575,12 +545,12 @@ class SheetMusicProcessor:
         try:
             self.logger.info(f"Processing: {file_path.name}")
             
-            # Check for duplicates
+            # Check for duplicates (temporarily disabled for bulk processing)
             file_hash = self.get_file_hash(file_path)
-            if file_hash in self.processed_hashes:
-                result.error = "Duplicate file (already processed)"
-                self.stats['duplicates'] += 1
-                return result
+            # if file_hash in self.processed_hashes:
+            #     result.error = "Duplicate file (already processed)"
+            #     self.stats['duplicates'] += 1
+            #     return result
                 
             # Create compressed copy for OCR (original stays untouched)
             compressed_path = self.compress_pdf(file_path)
