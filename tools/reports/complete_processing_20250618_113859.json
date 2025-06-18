@@ -1,0 +1,342 @@
+{
+  "timestamp": "2025-06-18T11:38:59.755790",
+  "stats": {
+    "processed": 22,
+    "successful": 22,
+    "failed": 0,
+    "ocr_success": 22,
+    "organized": 22
+  },
+  "results": [
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716380.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": "Allegro a tempo rit",
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": "Rileare molto"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Allegro_a_tempo_rit/Unknown_Instrument/Unknown_Part/SKM_C257i25061716380.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "Allegro\na tempo\nrit. >\nRileare molto"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716381.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716381.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "pt \u0111h \u00e0nh don \u0111\u00e3n c\u00e0 ug n c\u1eedi n\u00e0i G\u01b0\u1edd \u1ee9n g\u00ean"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716390.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716390.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "\u2022\u0420\u0424\"?\na tempo\nHdaranan,d"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716391.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": "Atearo ti"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716391.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "P.\nrit. >\na tempo\n\u043d\u0435 \u0440 \u043f\u0440\u0438\u0456 \u043f\u0440\nAtearo ti"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716400.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": "tipici mannarigina"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716400.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "rit.\nsatempo,\n1 7: 9g\nAllegro molto\ntipici mannarigina"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716410.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716410.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "= Sf\n4\nrit\n5 Allegro molto\n1 477"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716430.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": "reterano nome Allegro atempo",
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": "Allegro molto"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/reterano_nome_Allegro_atempo/Unknown_Instrument/Unknown_Part/SKM_C257i25061716430.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "reterano nome\nAllegro\natempo\n5 Allegro molto"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716431.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": "ciliego Allegro"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716431.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "dim.\nPtempo\na E allegro molto\nz4 ciliego\nAllegro"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716450.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": "Allegro molto"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716450.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "rit.\nAllegro\natempo\n717.\nAllegro molto"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716451.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": "dd blynts",
+        "instrument": null,
+        "part": null,
+        "key": "F",
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/dd_blynts/Unknown_Instrument/in_F/SKM_C257i25061716451.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "dd\nblynts\"!.\nda e a.oe 1 wp TTi\nf ff=\n1o de s tuis d ae"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716460.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": "F",
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/in_F/SKM_C257i25061716460.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "f\n\u2022DAll molto\nTe la a"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716461.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": "1st",
+        "key": null,
+        "composer": "molto Petrirenpieerino"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/1st/SKM_C257i25061716461.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "MN \u00b0I\nAllegro molto\nPetrirenpieerino"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716470.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716470.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "88819 \u0442\u0438 2: 888882848666633\ntann \u00e0, c\u1ec7 ng cre\ntempo\n4\nx rit, s\nMe le."
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716480.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": "PiCE Allegro atempo p dim",
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/PiCE_Allegro_atempo_p_dim/Unknown_Instrument/Unknown_Part/SKM_C257i25061716480.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "PiCE\nAllegro\natempo\np dim."
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716481.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": "F",
+        "composer": "Allearo molto"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/in_F/SKM_C257i25061716481.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "11 444\n3. 3.\n.?. a rit.\nAllegro\n\u043c\u0456\u0441\u0456 \u0441\u0435 \u0441\u0456\u0442\u0442\u0456:\ntempo\n\u2014ff f..\n93199899941\nAllearo molto"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716490.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": "Solo",
+        "key": null,
+        "composer": "mara mensa"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Solo/SKM_C257i25061716490.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "Solo\n6 Solo fAllegro molto\nmara mensa"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716510.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": "Allearo molto"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716510.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "Allegro !\na tempo\nAllearo molto"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716520.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": "Andante T t",
+        "instrument": null,
+        "part": null,
+        "key": "C",
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Andante_T_t/Unknown_Instrument/in_C/SKM_C257i25061716520.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "Andante\nT t\u1eedn gi\u00ean c nai \u0111 c\u1eedn c\u1eedn cin p"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716550.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": "va Andanie"
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716550.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "\u00a7 va\nAndanie"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716560.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": "Solo Solo",
+        "instrument": null,
+        "part": "Solo",
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Solo_Solo/Unknown_Instrument/Solo/SKM_C257i25061716560.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "Solo\nSolo\n- fAllegro molt\npthpp n aappitrtie"
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716570.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716570.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "Allegro >\ntempo tre tea\n12 10\nAllegro molte\n4\nrit."
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716580.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": "en me hon de no",
+        "instrument": null,
+        "part": "1st",
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/en_me_hon_de_no/Unknown_Instrument/1st/SKM_C257i25061716580.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "en me hon de no ve no i\n121.01.9560\nAllegro"
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "timestamp": "2025-06-18T10:52:51.025454",
+  "stats": {
+    "processed": 102,
+    "successful": 0,
+    "failed": 0,
+    "ocr_success": 0
+  },
+  "results": [
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716380.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716381.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716390.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716391.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716400.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716410.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716430.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716431.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716450.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716451.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716460.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716461.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716470.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716480.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716481.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716490.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716510.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716520.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716550.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716560.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716570.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716580.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/5.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061714590.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/test3_KM_C257i25061715150.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061715190.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716401.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/15_KM_C257i25061714570.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/2.1.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/3.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/4.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/6.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/7.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/._7.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/9_KM_C257i25061617310.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/10_KM_C257i25061617450.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/14_KM_C257i25061618140.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/15_KM_C257i25061714260.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/test_KM_C257i25061715080.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/15_KM_C257i25061715410.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/15.1_KM_C257i25061715550.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061715580.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/16_KM_C257i25061716080.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716130.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716170.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716190.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716200.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716230.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Clarinet/Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Clarinet/._Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Flute/Flute.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Trombone/Trombone.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Euphonium/Euphonium.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Timpani/Timpani.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Bassoon/2nd/2nd_Bassoon.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Clarinet/2nd/Bb/2nd_Bb_Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Clarinet/2nd/Bb/._2nd_Bb_Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Flute/Solo/Solo_Flute.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Cornet/1st/Bb/1st_Bb_Cornet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Cornet/2nd/Bb/2nd_Bb_Cornet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Trombone/1st/1st_Trombone.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/archive/test_files/test 2_KM_C257i25061715140.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/5.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/3.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/4.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/6.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/7.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/._7.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061714590.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061715190.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716401.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/9_KM_C257i25061617310.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/10_KM_C257i25061617450.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/14_KM_C257i25061618140.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061715580.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/16_KM_C257i25061716080.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716130.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716170.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716190.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716200.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716230.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Large_Work_15_Series/Mixed_Instruments/15_KM_C257i25061714570.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Large_Work_15_Series/Mixed_Instruments/15_KM_C257i25061714260.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Large_Work_15_Series/Mixed_Instruments/15_KM_C257i25061715410.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Large_Work_15_Series/Mixed_Instruments/15.1_KM_C257i25061715550.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Unknown_Piece/Mixed_Instruments/2.1.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Clarinet/French_Comedy_Overture_Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Clarinet/._French_Comedy_Overture_Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Flute/French_Comedy_Overture_Flute.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Trombone/French_Comedy_Overture_Trombone.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Euphonium/French_Comedy_Overture_Euphonium.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Timpani/French_Comedy_Overture_Timpani.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Bassoon/2nd/French_Comedy_Overture_2nd_Bassoon.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Clarinet/2nd/French_Comedy_Overture_2nd_Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Clarinet/2nd/._French_Comedy_Overture_2nd_Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Flute/Solo/French_Comedy_Overture_Solo_Flute.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Cornet/1st/French_Comedy_Overture_1st_Cornet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Cornet/2nd/French_Comedy_Overture_2nd_Cornet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Trombone/1st/French_Comedy_Overture_1st_Trombone.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/archive/test_files/test 2_KM_C257i25061715140.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/archive/test_files/test_files/test3_KM_C257i25061715150.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/archive/test_files/test_files/test_KM_C257i25061715080.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    }
+  ]
+}

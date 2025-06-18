@@ -1,3 +1,0 @@
-#!/bin/bash
-# Preview OCR.space analysis of raw scanned PDFs
-exec ~/sheet-music-project/tools/organize_ocr.sh --dry-run "$@"

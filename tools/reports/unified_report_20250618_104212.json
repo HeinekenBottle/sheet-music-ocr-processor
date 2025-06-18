@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-06-18T10:42:12.337042",
+  "stats": {
+    "processed": 0,
+    "successful": 0,
+    "failed": 0,
+    "ocr_success": 0
+  },
+  "results": []
+}

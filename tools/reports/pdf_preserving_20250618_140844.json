@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-06-18T14:08:44.888416",
+  "method": "jpeg_guided_vector_preserving_pdf_transformation",
+  "mode": "pdf_enhancement",
+  "stats": {
+    "processed": 2,
+    "enhanced": 2,
+    "preserved": 0,
+    "failed": 0,
+    "rotated": 2,
+    "cropped": 0,
+    "labeled": 2
+  },
+  "results": [
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st/Feodora_Ouverture_Trumpet_1st_Page38.pdf",
+      "success": true,
+      "original_size_kb": 1105,
+      "final_size_kb": 1105,
+      "size_change_percent": -0.008215838015477579,
+      "operations_applied": [
+        "Rotated -1.0\u00b0",
+        "Added title: Feodora Ouverture Trumpet 1st Page38 analysis"
+      ],
+      "analysis": {
+        "needs_straightening": true,
+        "rotation_angle": -1.0,
+        "needs_cropping": false,
+        "crop_margins": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "needs_labeling": true,
+        "suggested_title": "Feodora Ouverture Trumpet 1st Page38 analysis",
+        "quality_issues": [
+          "Very light scan - content may be faded"
+        ],
+        "confidence_score": 0.8500000000000001
+      },
+      "final_path": "/Users/jack/sheet-music-project/pdf_preserving_output/Feodora_Ouverture_Trumpet_1st_Page38_enhanced.pdf",
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st/Feodora_Ouverture_Trumpet_1st_Page44.pdf",
+      "success": true,
+      "original_size_kb": 1120,
+      "final_size_kb": 1120,
+      "size_change_percent": -0.008105578206627748,
+      "operations_applied": [
+        "Rotated -1.0\u00b0",
+        "Added title: Feodora Ouverture Trumpet 1st Page44 analysis"
+      ],
+      "analysis": {
+        "needs_straightening": true,
+        "rotation_angle": -1.0,
+        "needs_cropping": false,
+        "crop_margins": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "needs_labeling": true,
+        "suggested_title": "Feodora Ouverture Trumpet 1st Page44 analysis",
+        "quality_issues": [
+          "Very light scan - content may be faded"
+        ],
+        "confidence_score": 0.8500000000000001
+      },
+      "final_path": "/Users/jack/sheet-music-project/pdf_preserving_output/Feodora_Ouverture_Trumpet_1st_Page44_enhanced.pdf",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,1506 @@
+{
+  "timestamp": "2025-06-18T12:16:53.217689",
+  "stats": {
+    "processed": 102,
+    "successful": 96,
+    "failed": 6,
+    "organized": 96
+  },
+  "temp_dir": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh",
+  "results": [
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716380.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716380.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716380.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716381.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716381.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716381.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716390.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716390.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716390.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716391.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716391.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716391.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716400.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716400.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716400.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716410.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716410.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716410.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716430.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716430.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716430.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716431.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716431.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716431.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716450.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716450.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716450.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716451.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716451.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716451.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716460.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716460.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716460.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716461.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716461.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716461.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716470.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716470.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716470.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716480.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716480.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716480.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716481.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716481.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716481.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716490.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716490.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716490.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716510.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716510.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716510.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716520.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716520.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716520.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716550.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716550.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716550.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716560.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716560.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716560.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716570.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716570.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716570.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716580.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716580.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716580.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Bassoon/2nd/French_Comedy_Overture_2nd_Bassoon.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_2nd_Bassoon.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_2nd_Bassoon.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Clarinet/._French_Comedy_Overture_Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "jpeg_path": null,
+      "error": "Failed to convert to JPEG",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Clarinet/2nd/._French_Comedy_Overture_2nd_Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "jpeg_path": null,
+      "error": "Failed to convert to JPEG",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Clarinet/2nd/French_Comedy_Overture_2nd_Clarinet.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_2nd_Clarinet.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_2nd_Clarinet.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Clarinet/French_Comedy_Overture_Clarinet.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_Clarinet.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_Clarinet.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Cornet/1st/French_Comedy_Overture_1st_Cornet.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_1st_Cornet.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_1st_Cornet.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Cornet/2nd/French_Comedy_Overture_2nd_Cornet.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_2nd_Cornet.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_2nd_Cornet.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Euphonium/French_Comedy_Overture_Euphonium.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_Euphonium.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_Euphonium.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Flute/French_Comedy_Overture_Flute.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_Flute.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_Flute.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Flute/Solo/French_Comedy_Overture_Solo_Flute.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_Solo_Flute.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_Solo_Flute.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Timpani/French_Comedy_Overture_Timpani.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_Timpani.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_Timpani.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Trombone/1st/French_Comedy_Overture_1st_Trombone.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_1st_Trombone.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_1st_Trombone.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/French_Comedy_Overture/Trombone/French_Comedy_Overture_Trombone.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/French_Comedy_Overture_Trombone.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/French_Comedy_Overture_Trombone.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Large_Work_15_Series/Mixed_Instruments/15.1_KM_C257i25061715550.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/15.1_KM_C257i25061715550.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/15.1_KM_C257i25061715550.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Large_Work_15_Series/Mixed_Instruments/15_KM_C257i25061714260.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/15_KM_C257i25061714260.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/15_KM_C257i25061714260.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Large_Work_15_Series/Mixed_Instruments/15_KM_C257i25061714570.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/15_KM_C257i25061714570.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/15_KM_C257i25061714570.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Large_Work_15_Series/Mixed_Instruments/15_KM_C257i25061715410.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/15_KM_C257i25061715410.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/15_KM_C257i25061715410.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/._7.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "jpeg_path": null,
+      "error": "Failed to convert to JPEG",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/3.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/3.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/3.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/4.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/4.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/4.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/5.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/5.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/5.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/6.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/6.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/6.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Numbered_Collection/Mixed_Instruments/7.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/7.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/7.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/10_KM_C257i25061617450.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/10_KM_C257i25061617450.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/10_KM_C257i25061617450.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/14_KM_C257i25061618140.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/14_KM_C257i25061618140.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/14_KM_C257i25061618140.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/16_KM_C257i25061716080.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/16_KM_C257i25061716080.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/16_KM_C257i25061716080.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/9_KM_C257i25061617310.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/9_KM_C257i25061617310.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/9_KM_C257i25061617310.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061714590.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061714590.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061714590.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061715190.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061715190.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061715190.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061715580.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061715580.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061715580.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716130.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716130.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716130.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716170.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716170.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716170.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716190.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716190.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716190.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716200.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716200.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716200.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716230.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716230.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716230.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Scanner_Files/Mixed_Instruments/SKM_C257i25061716401.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716401.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716401.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/Unknown_Piece/Mixed_Instruments/2.1.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/2.1.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/2.1.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/archive/test_files/test 2_KM_C257i25061715140.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/test 2_KM_C257i25061715140.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/test 2_KM_C257i25061715140.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/archive/test_files/test_files/test3_KM_C257i25061715150.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/test3_KM_C257i25061715150.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/test3_KM_C257i25061715150.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic/archive/test_files/test_files/test_KM_C257i25061715080.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/test_KM_C257i25061715080.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/test_KM_C257i25061715080.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Bassoon/2nd/2nd_Bassoon.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/2nd_Bassoon.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/2nd_Bassoon.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Clarinet/._Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "jpeg_path": null,
+      "error": "Failed to convert to JPEG",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Clarinet/2nd/Bb/._2nd_Bb_Clarinet.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "jpeg_path": null,
+      "error": "Failed to convert to JPEG",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Clarinet/2nd/Bb/2nd_Bb_Clarinet.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/2nd_Bb_Clarinet.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/2nd_Bb_Clarinet.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Clarinet/Clarinet.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/Clarinet.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/Clarinet.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Cornet/1st/Bb/1st_Bb_Cornet.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/1st_Bb_Cornet.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/1st_Bb_Cornet.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Cornet/2nd/Bb/2nd_Bb_Cornet.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/2nd_Bb_Cornet.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/2nd_Bb_Cornet.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Euphonium/Euphonium.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/Euphonium.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/Euphonium.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Flute/Flute.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/Flute.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/Flute.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Flute/Solo/Solo_Flute.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/Solo_Flute.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/Solo_Flute.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Timpani/Timpani.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/Timpani.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/Timpani.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Trombone/1st/1st_Trombone.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/1st_Trombone.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/1st_Trombone.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Trombone/Trombone.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/Trombone.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/Trombone.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/._7.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "jpeg_path": null,
+      "error": "Failed to convert to JPEG",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/10_KM_C257i25061617450.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/10_KM_C257i25061617450.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/10_KM_C257i25061617450.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/14_KM_C257i25061618140.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/14_KM_C257i25061618140.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/14_KM_C257i25061618140.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/15.1_KM_C257i25061715550.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/15.1_KM_C257i25061715550.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/15.1_KM_C257i25061715550.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/15_KM_C257i25061714260.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/15_KM_C257i25061714260.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/15_KM_C257i25061714260.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/15_KM_C257i25061714570.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/15_KM_C257i25061714570.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/15_KM_C257i25061714570.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/15_KM_C257i25061715410.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/15_KM_C257i25061715410.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/15_KM_C257i25061715410.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/16_KM_C257i25061716080.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/16_KM_C257i25061716080.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/16_KM_C257i25061716080.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/2.1.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/2.1.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/2.1.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/3.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/3.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/3.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/4.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/4.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/4.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/5.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/5.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/5.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/6.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/6.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/6.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/7.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/7.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/7.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/9_KM_C257i25061617310.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/9_KM_C257i25061617310.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/9_KM_C257i25061617310.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061714590.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061714590.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061714590.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061715190.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061715190.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061715190.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061715580.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061715580.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061715580.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716130.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716130.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716130.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716170.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716170.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716170.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716190.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716190.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716190.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716200.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716200.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716200.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716230.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716230.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716230.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/SKM_C257i25061716401.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716401.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/SKM_C257i25061716401.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/test3_KM_C257i25061715150.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/test3_KM_C257i25061715150.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/test3_KM_C257i25061715150.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/Unknown/test_KM_C257i25061715080.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/test_KM_C257i25061715080.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/test_KM_C257i25061715080.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/SheetMusic_backup_quick/archive/test_files/test 2_KM_C257i25061715140.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/Users/jack/sheet-music-project/organized/Unknown_Piece/Unknown_Instrument/Unknown_Part/test 2_KM_C257i25061715140.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ry3mizzh/test 2_KM_C257i25061715140.jpg",
+      "error": null,
+      "warnings": []
+    }
+  ]
+}

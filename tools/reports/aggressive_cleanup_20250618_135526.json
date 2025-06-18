@@ -1,0 +1,605 @@
+{
+  "timestamp": "2025-06-18T13:55:26.455465",
+  "mode": "full_processing",
+  "stats": {
+    "processed": 23,
+    "successful": 23,
+    "failed": 0,
+    "straightened": 14,
+    "cropped": 0,
+    "enhanced": 3,
+    "total_size_reduction": 1332.6933207521056
+  },
+  "configuration": {
+    "input_path": "/Volumes/STORE N GO/Feodora_Ouverture",
+    "output_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned",
+    "temp_dir": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/aggressive_cleanup_jlfh4yqu"
+  },
+  "results": [
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Alto_Saxophone/Feodora_Ouverture_Alto_Saxophone_Eb.pdf",
+      "success": true,
+      "original_size_kb": 1556,
+      "cleaned_size_kb": 143,
+      "size_reduction_percent": 90.7719885622032,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3768799304962158
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Alto_Saxophone_Eb_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Baritone/Feodora_Ouverture_Baritone_Bb.pdf",
+      "success": true,
+      "original_size_kb": 2355,
+      "cleaned_size_kb": 123,
+      "size_reduction_percent": 94.75699528865879,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3618612289428711
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Baritone_Bb_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Baritone/Feodora_Ouverture_Baritone_Page71.pdf",
+      "success": true,
+      "original_size_kb": 2343,
+      "cleaned_size_kb": 112,
+      "size_reduction_percent": 95.19322329706252,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.3670642375946045
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Baritone_Page71_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Bass/Feodora_Ouverture_Bass_Page73.pdf",
+      "success": true,
+      "original_size_kb": 2349,
+      "cleaned_size_kb": 132,
+      "size_reduction_percent": 94.34999505377256,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3646512031555176
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Bass_Page73_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/1st/Feodora_Ouverture_Clarinet_1st_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1840,
+      "cleaned_size_kb": 101,
+      "size_reduction_percent": 94.47945359551468,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3729879856109619
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Clarinet_1st_Bb_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/1st/Feodora_Ouverture_Clarinet_1st_Page72.pdf",
+      "success": true,
+      "original_size_kb": 1794,
+      "cleaned_size_kb": 99,
+      "size_reduction_percent": 94.46254621303501,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3848550319671631
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Clarinet_1st_Page72_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd.pdf",
+      "success": true,
+      "original_size_kb": 1181,
+      "cleaned_size_kb": 116,
+      "size_reduction_percent": 90.12051877629632,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.36902499198913574
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Clarinet_2nd_3rd_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page22.pdf",
+      "success": true,
+      "original_size_kb": 1194,
+      "cleaned_size_kb": 117,
+      "size_reduction_percent": 90.1514154479234,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.36531901359558105
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Clarinet_2nd_3rd_Page22_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page23.pdf",
+      "success": true,
+      "original_size_kb": 1256,
+      "cleaned_size_kb": 118,
+      "size_reduction_percent": 90.57657234635698,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.36731481552124023
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Clarinet_2nd_3rd_Page23_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page29.pdf",
+      "success": true,
+      "original_size_kb": 1181,
+      "cleaned_size_kb": 116,
+      "size_reduction_percent": 90.11936153153079,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.3674941062927246
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Clarinet_2nd_3rd_Page29_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/Eb/Feodora_Ouverture_Clarinet_Eb.pdf",
+      "success": true,
+      "original_size_kb": 1226,
+      "cleaned_size_kb": 125,
+      "size_reduction_percent": 89.74620397194009,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3670008182525635
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Clarinet_Eb_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Flugelhorn/1st/Feodora_Ouverture_Flugelhorn_1st_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1300,
+      "cleaned_size_kb": 125,
+      "size_reduction_percent": 90.32188066185674,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.3630828857421875
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Flugelhorn_1st_Bb_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Horn/1st_2nd/Feodora_Ouverture_Horn_1st_2nd_Eb.pdf",
+      "success": true,
+      "original_size_kb": 1213,
+      "cleaned_size_kb": 129,
+      "size_reduction_percent": 89.36871568625872,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.36467671394348145
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Horn_1st_2nd_Eb_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Horn/3rd_4th/Feodora_Ouverture_Horn_3rd_4th_Eb_Page64.pdf",
+      "success": true,
+      "original_size_kb": 1152,
+      "cleaned_size_kb": 126,
+      "size_reduction_percent": 89.00518812679978,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.35997676849365234
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Horn_3rd_4th_Eb_Page64_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Oboe/Feodora_Ouverture_Oboe.pdf",
+      "success": true,
+      "original_size_kb": 1105,
+      "cleaned_size_kb": 125,
+      "size_reduction_percent": 88.66372094008943,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3635430335998535
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Oboe_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Score/Feodora_Ouverture_Conductor_Score.pdf",
+      "success": true,
+      "original_size_kb": 1707,
+      "cleaned_size_kb": 114,
+      "size_reduction_percent": 93.28889303161812,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.5,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3492910861968994
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Conductor_Score_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/1st/Feodora_Ouverture_Tenor_Horn_1st_Page35.pdf",
+      "success": true,
+      "original_size_kb": 1181,
+      "cleaned_size_kb": 129,
+      "size_reduction_percent": 89.0238154693885,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.36441802978515625
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Tenor_Horn_1st_Page35_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/1st/Feodora_Ouverture_Tenor_Horn_1st_Page37.pdf",
+      "success": true,
+      "original_size_kb": 1198,
+      "cleaned_size_kb": 133,
+      "size_reduction_percent": 88.82872388090098,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.36513519287109375
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Tenor_Horn_1st_Page37_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/2nd_3rd/Feodora_Ouverture_Tenor_Horn_2nd_3rd_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1253,
+      "cleaned_size_kb": 131,
+      "size_reduction_percent": 89.51111879841247,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.36850714683532715
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Tenor_Horn_2nd_3rd_Bb_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trombone/1st_2nd/Feodora_Ouverture_Trombone_1st_2nd.pdf",
+      "success": true,
+      "original_size_kb": 2079,
+      "cleaned_size_kb": 111,
+      "size_reduction_percent": 94.66074281928368,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.36319494247436523
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Trombone_1st_2nd_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st/Feodora_Ouverture_Trumpet_1st_Page38.pdf",
+      "success": true,
+      "original_size_kb": 1105,
+      "cleaned_size_kb": 122,
+      "size_reduction_percent": 88.92496201279198,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3593106269836426
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Trumpet_1st_Page38_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st/Feodora_Ouverture_Trumpet_1st_Page44.pdf",
+      "success": true,
+      "original_size_kb": 1120,
+      "cleaned_size_kb": 122,
+      "size_reduction_percent": 89.07768978819165,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.38688087463378906
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Trumpet_1st_Page44_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st_2nd_3rd/Feodora_Ouverture_Trumpet_1st_2nd_3rd_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1065,
+      "cleaned_size_kb": 117,
+      "size_reduction_percent": 88.96911741393735,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.4014599323272705
+      },
+      "final_path": "/Users/jack/sheet-music-project/cleaned_output/feodora_cleaned/Feodora_Ouverture_Trumpet_1st_2nd_3rd_Bb_cleaned.pdf",
+      "preview_path": null,
+      "error": null,
+      "warnings": []
+    }
+  ]
+}

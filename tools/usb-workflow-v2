@@ -1,3 +1,0 @@
-#!/bin/bash
-# USB Workflow Manager v2.0 - Main Command  
-exec python3 ~/sheet-music-project/tools/usb_workflow_v2.py "$@"

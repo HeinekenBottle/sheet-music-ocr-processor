@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-06-18T11:09:19.362143",
+  "stats": {
+    "processed": 1,
+    "successful": 0,
+    "failed": 1,
+    "ocr_success": 0
+  },
+  "results": [
+    {
+      "original_file": "/tmp/test_single/SKM_C257i25061716380.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR processing failed: File failed validation. File size exceeds the maximum permissible file size limit of 1024 KB",
+      "warnings": []
+    }
+  ]
+}

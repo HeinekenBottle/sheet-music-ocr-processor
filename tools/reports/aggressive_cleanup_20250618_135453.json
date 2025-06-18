@@ -1,0 +1,1231 @@
+{
+  "timestamp": "2025-06-18T13:54:53.606459",
+  "mode": "preview",
+  "stats": {
+    "processed": 46,
+    "successful": 46,
+    "failed": 0,
+    "straightened": 30,
+    "cropped": 0,
+    "enhanced": 24,
+    "total_size_reduction": 2248.5293793187816
+  },
+  "configuration": {
+    "input_path": "/Volumes/STORE N GO",
+    "output_path": "/Users/jack/sheet-music-project/cleaned_output",
+    "temp_dir": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/aggressive_cleanup_thwxdka9"
+  },
+  "results": [
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Alto_Saxophone/Feodora_Ouverture_Alto_Saxophone_Eb.pdf",
+      "success": true,
+      "original_size_kb": 1556,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.43855905532836914
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Alto_Saxophone_Eb_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Baritone/Feodora_Ouverture_Baritone_Bb.pdf",
+      "success": true,
+      "original_size_kb": 2355,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.38083720207214355
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Baritone_Bb_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Baritone/Feodora_Ouverture_Baritone_Page71.pdf",
+      "success": true,
+      "original_size_kb": 2343,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.38708019256591797
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null,
+      "warnings": [
+        "No significant issues found"
+      ]
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Bass/Feodora_Ouverture_Bass_Page73.pdf",
+      "success": true,
+      "original_size_kb": 2349,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.37993812561035156
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Bass_Page73_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/1st/Feodora_Ouverture_Clarinet_1st_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1840,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.38189005851745605
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Clarinet_1st_Bb_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/1st/Feodora_Ouverture_Clarinet_1st_Page72.pdf",
+      "success": true,
+      "original_size_kb": 1794,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.36643505096435547
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Clarinet_1st_Page72_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd.pdf",
+      "success": true,
+      "original_size_kb": 1181,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.3770029544830322
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null,
+      "warnings": [
+        "No significant issues found"
+      ]
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page22.pdf",
+      "success": true,
+      "original_size_kb": 1194,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.3671398162841797
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null,
+      "warnings": [
+        "No significant issues found"
+      ]
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page23.pdf",
+      "success": true,
+      "original_size_kb": 1256,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.4004671573638916
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null,
+      "warnings": [
+        "No significant issues found"
+      ]
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page29.pdf",
+      "success": true,
+      "original_size_kb": 1181,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.5190451145172119
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null,
+      "warnings": [
+        "No significant issues found"
+      ]
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/Eb/Feodora_Ouverture_Clarinet_Eb.pdf",
+      "success": true,
+      "original_size_kb": 1226,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.8334579467773438
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Clarinet_Eb_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Flugelhorn/1st/Feodora_Ouverture_Flugelhorn_1st_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1300,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.3703899383544922
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null,
+      "warnings": [
+        "No significant issues found"
+      ]
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Horn/1st_2nd/Feodora_Ouverture_Horn_1st_2nd_Eb.pdf",
+      "success": true,
+      "original_size_kb": 1213,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3696761131286621
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Horn_1st_2nd_Eb_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Horn/3rd_4th/Feodora_Ouverture_Horn_3rd_4th_Eb_Page64.pdf",
+      "success": true,
+      "original_size_kb": 1152,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.37342119216918945
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Horn_3rd_4th_Eb_Page64_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Oboe/Feodora_Ouverture_Oboe.pdf",
+      "success": true,
+      "original_size_kb": 1105,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3756587505340576
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Oboe_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Score/Feodora_Ouverture_Conductor_Score.pdf",
+      "success": true,
+      "original_size_kb": 1707,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.5,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3562469482421875
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Conductor_Score_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/1st/Feodora_Ouverture_Tenor_Horn_1st_Page35.pdf",
+      "success": true,
+      "original_size_kb": 1181,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3985021114349365
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Tenor_Horn_1st_Page35_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/1st/Feodora_Ouverture_Tenor_Horn_1st_Page37.pdf",
+      "success": true,
+      "original_size_kb": 1198,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.38162684440612793
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Tenor_Horn_1st_Page37_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/2nd_3rd/Feodora_Ouverture_Tenor_Horn_2nd_3rd_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1253,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3887290954589844
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Tenor_Horn_2nd_3rd_Bb_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trombone/1st_2nd/Feodora_Ouverture_Trombone_1st_2nd.pdf",
+      "success": true,
+      "original_size_kb": 2079,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "minor",
+        "issues_found": [],
+        "processing_time": 0.36791086196899414
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null,
+      "warnings": [
+        "No significant issues found"
+      ]
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st/Feodora_Ouverture_Trumpet_1st_Page38.pdf",
+      "success": true,
+      "original_size_kb": 1105,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.38336992263793945
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Trumpet_1st_Page38_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st/Feodora_Ouverture_Trumpet_1st_Page44.pdf",
+      "success": true,
+      "original_size_kb": 1120,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.3695991039276123
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Trumpet_1st_Page44_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st_2nd_3rd/Feodora_Ouverture_Trumpet_1st_2nd_3rd_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1065,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.372373104095459
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/Feodora_Ouverture_Trumpet_1st_2nd_3rd_Bb_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Alto_Saxophone/French_Comedy_Overture_Alto_Saxophone_10_KM_C257i25061617450.pdf",
+      "success": true,
+      "original_size_kb": 3621,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3913998603820801
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Alto_Saxophone_10_KM_C257i25061617450_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Bassoon/2nd/French_Comedy_Overture_2nd_Bassoon.pdf",
+      "success": true,
+      "original_size_kb": 791,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3667769432067871
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_2nd_Bassoon_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Clarinet/2nd/French_Comedy_Overture_2nd_Clarinet.pdf",
+      "success": true,
+      "original_size_kb": 2025,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.43367671966552734
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_2nd_Clarinet_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Clarinet/2nd/French_Comedy_Overture_Clarinet_2nd.pdf",
+      "success": true,
+      "original_size_kb": 2025,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.41412997245788574
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Clarinet_2nd_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Clarinet/French_Comedy_Overture_Clarinet.pdf",
+      "success": true,
+      "original_size_kb": 1507,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.4416840076446533
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Clarinet_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Clarinet/French_Comedy_Overture_Clarinet_Clarinet.pdf",
+      "success": true,
+      "original_size_kb": 1507,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.4020390510559082
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Clarinet_Clarinet_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Cornet/1st/French_Comedy_Overture_1st_Cornet.pdf",
+      "success": true,
+      "original_size_kb": 3059,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.36935877799987793
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_1st_Cornet_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Cornet/1st/French_Comedy_Overture_Cornet_1st.pdf",
+      "success": true,
+      "original_size_kb": 3059,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.37152576446533203
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Cornet_1st_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Cornet/2nd/French_Comedy_Overture_2nd_Cornet.pdf",
+      "success": true,
+      "original_size_kb": 3298,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -4.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -4.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3810291290283203
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_2nd_Cornet_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Cornet/2nd/French_Comedy_Overture_Cornet_2nd.pdf",
+      "success": true,
+      "original_size_kb": 3298,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -4.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -4.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3876948356628418
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Cornet_2nd_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Euphonium/French_Comedy_Overture_Euphonium.pdf",
+      "success": true,
+      "original_size_kb": 3832,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3951282501220703
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Euphonium_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Euphonium/French_Comedy_Overture_Euphonium_1.pdf",
+      "success": true,
+      "original_size_kb": 3832,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.35340213775634766
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Euphonium_1_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Flute/French_Comedy_Overture_Db_Flute_Piccolo.pdf",
+      "success": true,
+      "original_size_kb": 1548,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.4698190689086914
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Db_Flute_Piccolo_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Flute/French_Comedy_Overture_Flute.pdf",
+      "success": true,
+      "original_size_kb": 1548,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.4518468379974365
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Flute_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Flute/Solo/French_Comedy_Overture_Flute_Solo.pdf",
+      "success": true,
+      "original_size_kb": 1242,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.39035892486572266
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Flute_Solo_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Flute/Solo/French_Comedy_Overture_Solo_Flute.pdf",
+      "success": true,
+      "original_size_kb": 1242,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.0,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0"
+        ],
+        "processing_time": 0.39435386657714844
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Solo_Flute_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Oboes/French_Comedy_Overture_Oboes_3.pdf",
+      "success": true,
+      "original_size_kb": 1883,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed 5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.4637749195098877
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Oboes_3_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Timpani/French_Comedy_Overture_Timpani.pdf",
+      "success": true,
+      "original_size_kb": 1858,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.36968517303466797
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Timpani_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Timpani/French_Comedy_Overture_Timpani_Timpani.pdf",
+      "success": true,
+      "original_size_kb": 1858,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3982677459716797
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Timpani_Timpani_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Trombone/1st/French_Comedy_Overture_1st_Trombone.pdf",
+      "success": true,
+      "original_size_kb": 4027,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3636469841003418
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_1st_Trombone_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Trombone/1st/French_Comedy_Overture_Trombone_1st.pdf",
+      "success": true,
+      "original_size_kb": 4027,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.35729098320007324
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Trombone_1st_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Trombone/French_Comedy_Overture_Trombone.pdf",
+      "success": true,
+      "original_size_kb": 3271,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": 0.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3434939384460449
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/French_Comedy_Overture_Trombone_comparison.jpg",
+      "error": null,
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Unknown_page_continuation/Bassoon/2nd/2nd_Bassoon.pdf",
+      "success": true,
+      "original_size_kb": 791,
+      "cleaned_size_kb": 0,
+      "size_reduction_percent": 0,
+      "cleanup_metrics": {
+        "rotation_angle": -5.0,
+        "crop_margins": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "contrast_boost": 1.2,
+        "quality_improvement": "moderate",
+        "issues_found": [
+          "Skewed -5.0\u00b0",
+          "Low contrast/faded"
+        ],
+        "processing_time": 0.3665781021118164
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/cleaned_output/previews/2nd_Bassoon_comparison.jpg",
+      "error": null,
+      "warnings": []
+    }
+  ]
+}

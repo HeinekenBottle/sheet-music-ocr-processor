@@ -4,28 +4,53 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a sheet music digitization and organization system designed to process 1,600+ scanned arrangements from the 1970s. The workflow involves scanning PDFs, renaming them via a Cloud App, and automatically organizing them into a structured directory system based on instrument, part, and key signatures.
+This is a sheet music digitization and organization system designed to process scanned sheet music from the 1970s. The system has evolved from filename-based pattern matching to advanced visual analysis using Claude's image interpretation capabilities.
 
-## Core Architecture
+## Current Architecture (Visual Processing v4.0)
 
-**Two-layer system:**
-1. **Python core** (`organize_by_filename.py`) - Pattern matching and file organization logic
-2. **Shell wrapper** (`organize_music.sh`) - User interface and USB drive integration
+**Visual Analysis System:**
+1. **PDF to JPEG conversion** - Uses macOS `qlmanage` and `sips` to convert PDFs to high-quality images
+2. **Claude visual analysis** - Direct image interpretation to extract metadata from sheet music headers
+3. **Intelligent organization** - Creates `Piece/Instrument/Part` folder structure based on extracted content
+4. **Multi-language support** - Handles both English and German sheet music terminology
 
-**Parsing Strategy:**
-- Regex-based instrument detection using `INSTRUMENT_PATTERNS` dictionary
-- Part number extraction via `PART_PATTERNS` (1st, 2nd, 3rd, etc.)
-- Key signature identification through `KEY_PATTERNS` (Bb, Eb, F, etc.)
-- Hierarchical folder creation: `Instrument/Part/Key/filename.pdf`
+**Key Advantages over OCR:**
+- No API dependencies or costs
+- Better accuracy with musical terminology
+- Can distinguish header text from musical notation
+- Handles poor scan quality and varied fonts
+- Supports German musical terms (Klarinette, Ouverture, etc.)
 
-**File Movement Architecture:**
-- **Move mode** (default): Files transferred from Desktop to USB, source cleaned
-- **Copy mode**: Files duplicated, source preserved
-- **Dry-run mode**: Preview-only, no file operations
+**Processing Strategy:**
+- Extract piece names, instrument types, part designations, key signatures, and composers
+- Handle continuation pages (page 2, 3, etc. of multi-page parts)
+- Organize into logical hierarchy: `Piece_Name/Instrument/Part/filename.pdf`
+- Support both individual parts and complete band/orchestra sets
 
 ## Essential Commands
 
-**Daily workflow commands:**
+**Current Visual Processing Workflow:**
+```bash
+# Main visual processor - converts PDFs to JPEGs for Claude analysis
+python3 ~/sheet-music-project/tools/claude_visual_processor.py "/Volumes/USB" "/output/path"
+
+# Clean up organizational issues (Unknown folders, file naming)
+python3 ~/sheet-music-project/tools/cleanup_organization.py
+
+# Handle German language sheet music specifically
+python3 ~/sheet-music-project/tools/reorganize_german_files.py
+
+# Organize continuation pages and multi-page parts
+python3 ~/sheet-music-project/tools/organize_continuation_pages.py
+
+# Final cleanup - eliminate remaining Unknown folders
+python3 ~/sheet-music-project/tools/final_cleanup.py
+
+# OPTIONAL: Straighten tilted PDFs (preserves vector quality)
+python3 ~/sheet-music-project/tools/fixed_pdf_straightener.py "/input/path" "/output/path"
+```
+
+**Legacy filename-based workflow (still available):**
 ```bash
 # Preview what files are ready (safe preview)
 ~/organize-preview
@@ -37,47 +62,49 @@ This is a sheet music digitization and organization system designed to process 1
 ~/usb-setup
 ```
 
-**Development and testing:**
-```bash
-# Test with custom source and destination
-~/sheet-music-project/tools/organize_music.sh ~/Downloads /path/to/output --dry-run
-
-# Direct Python script usage
-python3 ~/sheet-music-project/tools/organize_by_filename.py input_dir output_dir --move
-
-# USB drive detection and path setup
-~/sheet-music-project/tools/setup_usb.sh
-```
-
 ## Project Structure Logic
 
 **Directory organization:**
 - `tools/` - All executable scripts and core logic
 - `organized/` - Local organized output (for testing)
-- `staging/raw_scans/` - Incoming unprocessed files
-- `reports/` - Organization logs and summaries
+- `reports/` - Processing logs and summaries from visual analysis
 
-**Global command shortcuts:**
-- `~/organize-music`, `~/organize-preview`, `~/usb-setup` are symlinks to main scripts
-- Enable running organizer from any directory without path specification
+**Visual Processing Output Structure:**
+- `Piece_Name/Instrument/Part/descriptive_filename.pdf`
+- Examples:
+  - `Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd.pdf`
+  - `French_Comedy_Overture/Trumpet/1st/French_Comedy_Overture_Trumpet_1st.pdf`
 
 ## Key Integration Points
 
-**USB Drive Integration:**
-- Default target: `/Volumes/YourUSB/SheetMusic` (configurable in `organize_music.sh` line 10)
-- Automatic USB detection and validation before file operations
-- Batch processing accumulates files in existing USB structure
+**USB Drive Processing:**
+- Processes all PDFs recursively from USB drive
+- Creates organized structure directly on USB
+- Preserves original files in archive folders
+- Handles both English and German sheet music
 
-**Cloud App Integration:**
-- Expects renamed files in format: `009_1stBbClarinet.pdf`
-- Processes files from Desktop by default
-- Handles various naming conventions and abbreviations
+**German Language Support:**
+- Recognizes German musical terms: Klarinette, Trompete, Posaune, etc.
+- Handles German composers: "von P. Tschaikowsky"
+- Supports German publishers: "Georg Bauer, Musikverlag, Karlsruhe"
+- Processes German part designations: "II und III", "in B", etc.
 
-**Pattern Recognition:**
-- Instrument patterns support multiple abbreviations (`clarinet|cl|clar`)
-- Transposing instruments get additional key subdirectories
-- Unknown instruments sorted into `Unknown/` folder with detailed reporting
+**Multi-page Part Handling:**
+- Identifies continuation pages by page numbers
+- Groups related pages in same instrument folder
+- Maintains page sequence with descriptive naming
+- Handles complex band arrangements with multiple movements
 
 ## Operational Context
 
-This system processes batches of 5-7 files at a time from a scanner → Cloud App → Desktop → USB workflow. The USB drive serves as the master organized library that grows with each processing batch. Files are moved (not copied) to keep the Desktop clean for subsequent batches.
+**Modern Visual Workflow:**
+The system now processes complete USB drives containing 100+ scanned PDFs. It uses Claude's visual analysis to identify piece names, instruments, and parts directly from the sheet music headers, creating a perfectly organized library structure.
+
+**Success Stories:**
+- Successfully organized "Feodora Ouverture" (23 parts) - German band arrangement by Tchaikovsky
+- Organized "French Comedy Overture" (25+ parts) - English band arrangement by Kéler Béla
+- 100% identification rate when German language support is properly applied
+- Eliminated all "Unknown" folders through improved visual analysis
+
+**Legacy Support:**
+The original filename-based system remains available for processing files that have been pre-renamed through the Cloud App workflow.

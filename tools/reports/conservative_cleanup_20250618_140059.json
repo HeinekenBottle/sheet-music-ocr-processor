@@ -1,0 +1,409 @@
+{
+  "timestamp": "2025-06-18T14:00:59.555372",
+  "approach": "conservative",
+  "philosophy": "minimal_processing_maximum_quality_preservation",
+  "mode": "preview",
+  "stats": {
+    "processed": 23,
+    "improved": 1,
+    "unchanged": 22,
+    "failed": 0,
+    "total_size_change": -44.75682570354644
+  },
+  "results": [
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Alto_Saxophone/Feodora_Ouverture_Alto_Saxophone_Eb.pdf",
+      "success": true,
+      "original_size_kb": 1556,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Baritone/Feodora_Ouverture_Baritone_Bb.pdf",
+      "success": true,
+      "original_size_kb": 2355,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Baritone/Feodora_Ouverture_Baritone_Page71.pdf",
+      "success": true,
+      "original_size_kb": 2343,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Bass/Feodora_Ouverture_Bass_Page73.pdf",
+      "success": true,
+      "original_size_kb": 2349,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/1st/Feodora_Ouverture_Clarinet_1st_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1840,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/1st/Feodora_Ouverture_Clarinet_1st_Page72.pdf",
+      "success": true,
+      "original_size_kb": 1794,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd.pdf",
+      "success": true,
+      "original_size_kb": 1181,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page22.pdf",
+      "success": true,
+      "original_size_kb": 1194,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page23.pdf",
+      "success": true,
+      "original_size_kb": 1256,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page29.pdf",
+      "success": true,
+      "original_size_kb": 1181,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/Eb/Feodora_Ouverture_Clarinet_Eb.pdf",
+      "success": true,
+      "original_size_kb": 1226,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Flugelhorn/1st/Feodora_Ouverture_Flugelhorn_1st_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1300,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Horn/1st_2nd/Feodora_Ouverture_Horn_1st_2nd_Eb.pdf",
+      "success": true,
+      "original_size_kb": 1213,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Horn/3rd_4th/Feodora_Ouverture_Horn_3rd_4th_Eb_Page64.pdf",
+      "success": true,
+      "original_size_kb": 1152,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Oboe/Feodora_Ouverture_Oboe.pdf",
+      "success": true,
+      "original_size_kb": 1105,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Score/Feodora_Ouverture_Conductor_Score.pdf",
+      "success": true,
+      "original_size_kb": 1707,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": -2,
+        "contrast_adjustment": 1.15,
+        "needs_processing": true,
+        "quality_score": "needs_improvement",
+        "processing_applied": [
+          "Straighten -2\u00b0",
+          "Enhance contrast 1.15x"
+        ]
+      },
+      "final_path": null,
+      "preview_path": "/Users/jack/sheet-music-project/conservative_output/previews/Feodora_Ouverture_Conductor_Score_conservative_comparison.jpg",
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/1st/Feodora_Ouverture_Tenor_Horn_1st_Page35.pdf",
+      "success": true,
+      "original_size_kb": 1181,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/1st/Feodora_Ouverture_Tenor_Horn_1st_Page37.pdf",
+      "success": true,
+      "original_size_kb": 1198,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/2nd_3rd/Feodora_Ouverture_Tenor_Horn_2nd_3rd_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1253,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trombone/1st_2nd/Feodora_Ouverture_Trombone_1st_2nd.pdf",
+      "success": true,
+      "original_size_kb": 2079,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st/Feodora_Ouverture_Trumpet_1st_Page38.pdf",
+      "success": true,
+      "original_size_kb": 1105,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st/Feodora_Ouverture_Trumpet_1st_Page44.pdf",
+      "success": true,
+      "original_size_kb": 1120,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st_2nd_3rd/Feodora_Ouverture_Trumpet_1st_2nd_3rd_Bb.pdf",
+      "success": true,
+      "original_size_kb": 1065,
+      "processed_size_kb": 0,
+      "size_change_percent": 0,
+      "metrics": {
+        "rotation_angle": 0.0,
+        "contrast_adjustment": 1.0,
+        "needs_processing": false,
+        "quality_score": "excellent",
+        "processing_applied": []
+      },
+      "final_path": null,
+      "preview_path": null,
+      "error": null
+    }
+  ]
+}

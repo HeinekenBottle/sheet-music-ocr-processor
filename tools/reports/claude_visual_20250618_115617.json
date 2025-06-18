@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-06-18T11:56:17.772589",
+  "stats": {
+    "processed": 1,
+    "successful": 1,
+    "failed": 0,
+    "organized": 1
+  },
+  "temp_dir": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ggvconuy",
+  "results": [
+    {
+      "original_file": "/Volumes/STORE N GO/SKM_C257i25061716380.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/tmp/claude_test/Unknown_Piece/Unknown_Instrument/Unknown_Part/SKM_C257i25061716380.pdf",
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/claude_visual_processor_ggvconuy/SKM_C257i25061716380.jpg",
+      "error": null,
+      "warnings": []
+    }
+  ]
+}

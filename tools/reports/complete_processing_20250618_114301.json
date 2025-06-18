@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-06-18T11:43:01.868561",
+  "stats": {
+    "processed": 1,
+    "successful": 1,
+    "failed": 0,
+    "ocr_success": 1,
+    "organized": 1
+  },
+  "results": [
+    {
+      "original_file": "/tmp/single_test/SKM_C257i25061716380.pdf",
+      "success": true,
+      "metadata": {
+        "piece_name": "Allegro",
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null
+      },
+      "final_path": "/tmp/test_output/Allegro/Unknown_Instrument/Unknown_Part/SKM_C257i25061716380.pdf",
+      "error": null,
+      "warnings": [],
+      "ocr_text": "Allegro"
+    }
+  ]
+}

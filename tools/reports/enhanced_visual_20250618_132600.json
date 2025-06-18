@@ -1,0 +1,1484 @@
+{
+  "timestamp": "2025-06-18T13:26:00.973478",
+  "configuration": {
+    "quality_check": true,
+    "german_mode": false,
+    "input_path": "/Volumes/STORE N GO",
+    "output_path": "/Users/jack/sheet-music-project/enhanced_test"
+  },
+  "stats": {
+    "processed": 47,
+    "successful": 0,
+    "failed": 47,
+    "organized": 0,
+    "discarded": 0,
+    "flagged": 0,
+    "german_detected": 28,
+    "high_quality": 46,
+    "medium_quality": 0,
+    "low_quality": 0,
+    "poor_quality": 0
+  },
+  "temp_dir": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h",
+  "results": [
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Alto_Saxophone/Feodora_Ouverture_Alto_Saxophone_Eb.pdf",
+      "success": false,
+      "processing_time": 0.47588419914245605,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "saxophon",
+          "saxophone",
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Alto_Saxophone_Eb.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Baritone/Feodora_Ouverture_Baritone_Bb.pdf",
+      "success": false,
+      "processing_time": 1.0267648696899414,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "bariton",
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Baritone_Bb.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Baritone/Feodora_Ouverture_Baritone_Page71.pdf",
+      "success": false,
+      "processing_time": 0.5635190010070801,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "bariton",
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Baritone_Page71.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Bass/Feodora_Ouverture_Bass_Page73.pdf",
+      "success": false,
+      "processing_time": 0.5330548286437988,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Bass_Page73.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/1st/Feodora_Ouverture_Clarinet_1st_Bb.pdf",
+      "success": false,
+      "processing_time": 0.5608608722686768,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Clarinet_1st_Bb.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/1st/Feodora_Ouverture_Clarinet_1st_Page72.pdf",
+      "success": false,
+      "processing_time": 0.4358787536621094,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Clarinet_1st_Page72.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd.pdf",
+      "success": false,
+      "processing_time": 0.4348580837249756,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Clarinet_2nd_3rd.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page22.pdf",
+      "success": false,
+      "processing_time": 0.4267261028289795,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Clarinet_2nd_3rd_Page22.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page23.pdf",
+      "success": false,
+      "processing_time": 0.42827296257019043,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Clarinet_2nd_3rd_Page23.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/2nd_and_3rd/Feodora_Ouverture_Clarinet_2nd_3rd_Page29.pdf",
+      "success": false,
+      "processing_time": 0.4313228130340576,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Clarinet_2nd_3rd_Page29.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Clarinet/Eb/Feodora_Ouverture_Clarinet_Eb.pdf",
+      "success": false,
+      "processing_time": 0.42444276809692383,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Clarinet_Eb.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Flugelhorn/1st/Feodora_Ouverture_Flugelhorn_1st_Bb.pdf",
+      "success": false,
+      "processing_time": 0.4395792484283447,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "horn",
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Flugelhorn_1st_Bb.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Horn/1st_2nd/Feodora_Ouverture_Horn_1st_2nd_Eb.pdf",
+      "success": false,
+      "processing_time": 0.42711806297302246,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "horn",
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Horn_1st_2nd_Eb.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Horn/3rd_4th/Feodora_Ouverture_Horn_3rd_4th_Eb_Page64.pdf",
+      "success": false,
+      "processing_time": 0.4281637668609619,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "horn",
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Horn_3rd_4th_Eb_Page64.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Oboe/Feodora_Ouverture_Oboe.pdf",
+      "success": false,
+      "processing_time": 0.41356325149536133,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "oboe",
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Oboe.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Score/Feodora_Ouverture_Conductor_Score.pdf",
+      "success": false,
+      "processing_time": 0.6690340042114258,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Conductor_Score.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/1st/Feodora_Ouverture_Tenor_Horn_1st_Page35.pdf",
+      "success": false,
+      "processing_time": 0.48374199867248535,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "horn",
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Tenor_Horn_1st_Page35.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/1st/Feodora_Ouverture_Tenor_Horn_1st_Page37.pdf",
+      "success": false,
+      "processing_time": 0.4611837863922119,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "horn",
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Tenor_Horn_1st_Page37.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Tenor_Horn/2nd_3rd/Feodora_Ouverture_Tenor_Horn_2nd_3rd_Bb.pdf",
+      "success": false,
+      "processing_time": 0.4255187511444092,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "horn",
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Tenor_Horn_2nd_3rd_Bb.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trombone/1st_2nd/Feodora_Ouverture_Trombone_1st_2nd.pdf",
+      "success": false,
+      "processing_time": 0.45773792266845703,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Trombone_1st_2nd.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st/Feodora_Ouverture_Trumpet_1st_Page38.pdf",
+      "success": false,
+      "processing_time": 0.41889405250549316,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Trumpet_1st_Page38.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st/Feodora_Ouverture_Trumpet_1st_Page44.pdf",
+      "success": false,
+      "processing_time": 0.4636800289154053,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Trumpet_1st_Page44.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Trumpet/1st_2nd_3rd/Feodora_Ouverture_Trumpet_1st_2nd_3rd_Bb.pdf",
+      "success": false,
+      "processing_time": 0.4910738468170166,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "ouverture"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/Feodora_Ouverture_Trumpet_1st_2nd_3rd_Bb.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Alto_Saxophone/French_Comedy_Overture_Alto_Saxophone_10_KM_C257i25061617450.pdf",
+      "success": false,
+      "processing_time": 0.45116114616394043,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "saxophon",
+          "saxophone"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Alto_Saxophone_10_KM_C257i25061617450.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Bassoon/2nd/French_Comedy_Overture_2nd_Bassoon.pdf",
+      "success": false,
+      "processing_time": 1.2329661846160889,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_2nd_Bassoon.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Clarinet/2nd/French_Comedy_Overture_2nd_Clarinet.pdf",
+      "success": false,
+      "processing_time": 0.704334020614624,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_2nd_Clarinet.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Clarinet/2nd/French_Comedy_Overture_Clarinet_2nd.pdf",
+      "success": false,
+      "processing_time": 0.46344804763793945,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Clarinet_2nd.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Clarinet/French_Comedy_Overture_Clarinet.pdf",
+      "success": false,
+      "processing_time": 0.3850407600402832,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Clarinet.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Clarinet/French_Comedy_Overture_Clarinet_Clarinet.pdf",
+      "success": false,
+      "processing_time": 0.4470641613006592,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Clarinet_Clarinet.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Cornet/1st/French_Comedy_Overture_1st_Cornet.pdf",
+      "success": false,
+      "processing_time": 0.4219810962677002,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_1st_Cornet.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Cornet/1st/French_Comedy_Overture_Cornet_1st.pdf",
+      "success": false,
+      "processing_time": 0.4273698329925537,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Cornet_1st.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Cornet/2nd/French_Comedy_Overture_2nd_Cornet.pdf",
+      "success": false,
+      "processing_time": 0.4360032081604004,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_2nd_Cornet.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Cornet/2nd/French_Comedy_Overture_Cornet_2nd.pdf",
+      "success": false,
+      "processing_time": 0.43646883964538574,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Cornet_2nd.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Euphonium/French_Comedy_Overture_Euphonium.pdf",
+      "success": false,
+      "processing_time": 0.41953372955322266,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "euphonium"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Euphonium.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Euphonium/French_Comedy_Overture_Euphonium_1.pdf",
+      "success": false,
+      "processing_time": 0.42692112922668457,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "euphonium"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Euphonium_1.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Flute/._French_Comedy_Overture_Db_Flute_Piccolo.pdf",
+      "success": false,
+      "processing_time": 0.0,
+      "metadata": null,
+      "quality": null,
+      "final_path": null,
+      "jpeg_path": null,
+      "error": "Failed to convert to JPEG",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Flute/French_Comedy_Overture_Db_Flute_Piccolo.pdf",
+      "success": false,
+      "processing_time": 0.48545098304748535,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "piccolo"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Db_Flute_Piccolo.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Flute/French_Comedy_Overture_Flute.pdf",
+      "success": false,
+      "processing_time": 0.4973571300506592,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Flute.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Flute/Solo/French_Comedy_Overture_Flute_Solo.pdf",
+      "success": false,
+      "processing_time": 0.42340612411499023,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Flute_Solo.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Flute/Solo/French_Comedy_Overture_Solo_Flute.pdf",
+      "success": false,
+      "processing_time": 0.4535410404205322,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Solo_Flute.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Oboes/French_Comedy_Overture_Oboes_3.pdf",
+      "success": false,
+      "processing_time": 1.0077130794525146,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "german",
+        "confidence": 0.0,
+        "german_terms": [
+          "oboe"
+        ],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Oboes_3.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Timpani/French_Comedy_Overture_Timpani.pdf",
+      "success": false,
+      "processing_time": 0.535283088684082,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Timpani.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Timpani/French_Comedy_Overture_Timpani_Timpani.pdf",
+      "success": false,
+      "processing_time": 0.4187479019165039,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Timpani_Timpani.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Trombone/1st/French_Comedy_Overture_1st_Trombone.pdf",
+      "success": false,
+      "processing_time": 0.49552011489868164,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_1st_Trombone.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Trombone/1st/French_Comedy_Overture_Trombone_1st.pdf",
+      "success": false,
+      "processing_time": 0.4318709373474121,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Trombone_1st.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/French_Comedy_Overture/Trombone/French_Comedy_Overture_Trombone.pdf",
+      "success": false,
+      "processing_time": 0.3606078624725342,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/French_Comedy_Overture_Trombone.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    },
+    {
+      "original_file": "/Volumes/STORE N GO/Unknown_page_continuation/Bassoon/2nd/2nd_Bassoon.pdf",
+      "success": false,
+      "processing_time": 0.4036839008331299,
+      "metadata": {
+        "piece_name": null,
+        "instrument": null,
+        "part": null,
+        "key": null,
+        "composer": null,
+        "page_number": null,
+        "language": "auto",
+        "confidence": 0.0,
+        "german_terms": [],
+        "page_indicators": []
+      },
+      "quality": {
+        "clarity_score": 1.0,
+        "quality_level": "High",
+        "recommended_action": "process",
+        "issues": [],
+        "skew_angle": 0.0,
+        "brightness": 0.6,
+        "contrast": 0.7
+      },
+      "final_path": null,
+      "jpeg_path": "/var/folders/bb/rx1_5frn68gch7mbvhsvv0m00000gn/T/enhanced_visual_processor_riosge6h/2nd_Bassoon.jpg",
+      "error": "Processing failed: bad character range \\s-. at position 4",
+      "warnings": []
+    }
+  ]
+}

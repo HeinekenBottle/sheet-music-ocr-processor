@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-06-18T10:53:21.524510",
+  "stats": {
+    "processed": 1,
+    "successful": 0,
+    "failed": 0,
+    "ocr_success": 0
+  },
+  "results": [
+    {
+      "original_file": "/tmp/test_single/SKM_C257i25061716380.pdf",
+      "success": false,
+      "metadata": null,
+      "final_path": null,
+      "error": "OCR failed: OCR API request failed: 403",
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-06-18T14:08:20.321338",
+  "method": "jpeg_guided_vector_preserving_pdf_transformation",
+  "mode": "analysis_only",
+  "stats": {
+    "processed": 23,
+    "enhanced": 23,
+    "preserved": 0,
+    "failed": 0,
+    "rotated": 0,
+    "cropped": 0,
+    "labeled": 0
+  },
+  "results": [
+    {
+      "original_file": "/Volumes/STORE N GO/Feodora_Ouverture/Alto_Saxophone/Feodora_Ouverture_Alto_Saxophone_Eb.pdf",
+      "success": true,
+      "original_size_kb": 1556,
+      "final_size_kb": 0,
+      "size_change_percent": 0,
+      "operations_applied": [],
+      "analysis": {
+        "needs_straightening": 
