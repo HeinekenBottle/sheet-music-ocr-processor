@@ -85,17 +85,10 @@ detect_usb_drives() {
 }
 
 check_api_key() {
+    # Use existing key as default if no environment variable set
     if [ -z "$OCR_SPACE_API_KEY" ]; then
-        echo -e "${RED}Error: OCR_SPACE_API_KEY environment variable not set${NC}"
-        echo ""
-        echo "To get an API key:"
-        echo "1. Visit https://ocr.space/ocrapi"
-        echo "2. Sign up for a free account"
-        echo "3. Get your API key from the dashboard"
-        echo "4. Set it in your environment:"
-        echo "   export OCR_SPACE_API_KEY='your_api_key_here'"
-        echo ""
-        return 1
+        export OCR_SPACE_API_KEY="K85448435988957"
+        echo -e "${YELLOW}Using existing OCR.space API key${NC}"
     fi
     return 0
 }

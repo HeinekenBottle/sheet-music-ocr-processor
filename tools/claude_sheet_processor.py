@@ -105,25 +105,37 @@ class SheetMusicProcessor:
         
     def setup_patterns(self):
         """Setup regex patterns for metadata extraction"""
-        # Piece name patterns (common sheet music titles)
+        # Piece name patterns (enhanced for stylized fonts and multiple languages)
         self.piece_patterns = [
-            r'(?i)(?:title|piece|song|march|waltz|suite|symphony|concerto|sonata|overture|theme|variations?)[:\s]+([A-Za-z\s\-&0-9]+)',
-            r'(?i)^([A-Z][A-Za-z\s\-&0-9]{3,30})(?:\s+(?:March|Waltz|Suite|Symphony|Concerto|Sonata|Overture))?',
-            r'(?i)(?:^|\n)([A-Z][A-Za-z\s\-&0-9]{5,40})(?=\s*\n|\s*$)',
+            # Explicit title markers
+            r'(?i)(?:title|titel|piece|song|march|waltz|suite|symphony|concerto|sonata|overture|theme|variations?)[:\s-]+([A-Za-z\s\-&0-9äöüß]{3,50})',
+            # First prominent line (likely title)
+            r'(?i)^([A-Z][A-Za-z\s\-&0-9äöüß]{3,50})(?:\s+(?:March|Waltz|Suite|Symphony|Concerto|Sonata|Overture|Marsch|Walzer))?',
+            # Capitalized title with common musical forms
+            r'(?i)([A-Z][A-Za-z\s\-&0-9äöüß]{5,50})\s+(?:March|Waltz|Suite|Symphony|Concerto|Sonata|Overture|Marsch|Walzer)',
+            # Lines that start with capital and are isolated (common title placement)
+            r'(?i)(?:^|\n)([A-Z][A-Za-z\s\-&0-9äöüß]{5,45})(?=\s*\n|\s*$)',
+            # German/European style titles with umlauts
+            r'(?i)([A-ZÄÖÜ][a-zäöüß\s\-&0-9]{4,45})',
         ]
         
-        # Instrument patterns
+        # Instrument patterns with OCR error tolerance and multilingual support
         self.instrument_patterns = {
-            'Clarinet': r'(?i)\b(?:clarinet|cl|clar|clari)\b',
-            'Trumpet': r'(?i)\b(?:trumpet|tpt|trp|cornet|cnt)\b',
-            'Flute': r'(?i)\b(?:flute|fl|piccolo|picc)\b',
-            'Saxophone': r'(?i)\b(?:saxophone|sax|alto\s*sax|tenor\s*sax|bari\s*sax|soprano\s*sax)\b',
-            'Trombone': r'(?i)\b(?:trombone|tbn|bone|slide)\b',
-            'French Horn': r'(?i)\b(?:french\s*horn|horn|hn|f\s*horn)\b',
-            'Tuba': r'(?i)\b(?:tuba|tb|bass|euphonium|euph|baritone|bari)\b',
-            'Percussion': r'(?i)\b(?:percussion|perc|drums|timpani|timp|snare|bass\s*drum|cymbals)\b',
-            'Oboe': r'(?i)\b(?:oboe|ob|english\s*horn)\b',
-            'Bassoon': r'(?i)\b(?:bassoon|bsn|contra\s*bassoon)\b',
+            'Clarinet': r'(?i)\b(?:clarinet|cl[ao]rin[ae]t|c[il][ao]rin[ae]t|clar|clari|klarinette|clarinette)\b',
+            'Trumpet': r'(?i)\b(?:trumpet|tr[ou]mp[ae]t|tpt|trp|cornet|cnt|trompete|trompette)\b',
+            'Flute': r'(?i)\b(?:flute|fl[ou]te|fl|piccolo|picc|flöte|flöt|flote|flauta)\b',
+            'Saxophone': r'(?i)\b(?:saxophone|sax[ao]phone|sax|alto\s*sax|tenor\s*sax|bari\s*sax|soprano\s*sax|saxophon)\b',
+            'Trombone': r'(?i)\b(?:trombone|tr[ao]mb[ao]ne|tbn|bone|slide|posaune)\b',
+            'French Horn': r'(?i)\b(?:french\s*horn|horn|h[ao]rn|hn|f\s*horn|waldhorn|cor)\b',
+            'Tuba': r'(?i)\b(?:tuba|t[ou]ba|tb|bass|euphonium|euph|baritone|bari)\b',
+            'Percussion': r'(?i)\b(?:percussion|perc[ou]ssion|drums|timpani|timp|snare|bass\s*drum|cymbals|pauken|schlagzeug)\b',
+            'Oboe': r'(?i)\b(?:oboe|ob[ao]e|ob|english\s*horn|hautbois)\b',
+            'Bassoon': r'(?i)\b(?:bassoon|b?ass[ao][ao]n|assoon|bsn|contra\s*bassoon|fagott|basson)\b',
+            'Violin': r'(?i)\b(?:violin|vi[ao]lin|vln|vl|geige|violon)\b',
+            'Viola': r'(?i)\b(?:viola|vi[ao]la|vla|bratsche|alto)\b',
+            'Cello': r'(?i)\b(?:cello|c[ae]llo|vc|violoncello|violoncelle)\b',
+            'Double Bass': r'(?i)\b(?:double\s*bass|bass|db|contrabass|kontrabass|contrebasse)\b',
+            'Piano': r'(?i)\b(?:piano|pi[ao]no|pf|klavier|pianoforte)\b',
         }
         
         # Part number patterns
@@ -184,30 +196,40 @@ class SheetMusicProcessor:
         return hash_md5.hexdigest()
         
     def compress_pdf(self, input_path: Path, target_size_mb: float = 1.0) -> Path:
-        """Compress PDF to under target size"""
-        output_path = self.temp_dir / f"compressed_{input_path.name}"
+        """Create compressed copy for OCR (preserves original)"""
+        output_path = self.temp_dir / f"ocr_copy_{input_path.name}"
         
         # Convert to images first if needed
         if input_path.suffix.lower() in ['.tif', '.tiff', '.png', '.jpg', '.jpeg']:
-            # Convert image to PDF
+            # Convert image to PDF with reasonable quality
             img = Image.open(input_path)
             pdf_path = self.temp_dir / f"{input_path.stem}.pdf"
-            img.save(pdf_path, "PDF", resolution=100.0)
+            img.save(pdf_path, "PDF", resolution=150.0, quality=85)
             input_path = pdf_path
             
         # Compress PDF using ghostscript if available
         try:
+            # Start with moderate compression to preserve OCR quality
             cmd = [
                 'gs', '-sDEVICE=pdfwrite', '-dCompatibilityLevel=1.4',
-                '-dPDFSETTINGS=/ebook', '-dNOPAUSE', '-dQUIET', '-dBATCH',
+                '-dPDFSETTINGS=/printer', '-dNOPAUSE', '-dQUIET', '-dBATCH',
+                '-dColorImageResolution=200', '-dGrayImageResolution=200',
                 f'-sOutputFile={output_path}', str(input_path)
             ]
             subprocess.run(cmd, check=True, capture_output=True)
             
-            # Check if still too large
+            # Check if still too large - gradually increase compression
             if output_path.stat().st_size > target_size_mb * 1024 * 1024:
-                # More aggressive compression
+                cmd[4] = '-dPDFSETTINGS=/ebook'
+                cmd[6] = '-dColorImageResolution=150'
+                cmd[7] = '-dGrayImageResolution=150'
+                subprocess.run(cmd, check=True, capture_output=True)
+                
+            # Final fallback - more aggressive but still readable
+            if output_path.stat().st_size > target_size_mb * 1024 * 1024:
                 cmd[4] = '-dPDFSETTINGS=/screen'
+                cmd[6] = '-dColorImageResolution=100'
+                cmd[7] = '-dGrayImageResolution=100'
                 subprocess.run(cmd, check=True, capture_output=True)
                 
         except (subprocess.CalledProcessError, FileNotFoundError):
@@ -260,7 +282,10 @@ class SheetMusicProcessor:
                     'isOverlayRequired': 'false',
                     'scale': 'true',
                     'OCREngine': '2',  # Use engine 2 for better accuracy
-                    'detectOrientation': 'true'
+                    'detectOrientation': 'true',
+                    'isTable': 'false',  # Not a table document
+                    'filetype': 'PDF',  # Specify file type
+                    'isCreateSearchablePdf': 'false'  # We only need text
                 }
                 
                 response = requests.post(
@@ -361,11 +386,60 @@ class SheetMusicProcessor:
         return None
         
     def extract_instrument(self, text: str) -> Optional[str]:
-        """Extract instrument from text"""
+        """Extract instrument from text with fuzzy matching for OCR errors"""
+        # First try exact pattern matching
         for instrument, pattern in self.instrument_patterns.items():
             if re.search(pattern, text):
+                self.logger.debug(f"Instrument matched: {instrument} via pattern")
                 return instrument
+                
+        # Fuzzy matching for OCR errors
+        instrument = self.fuzzy_match_instrument(text)
+        if instrument:
+            self.logger.info(f"Instrument fuzzy matched: {instrument}")
+            return instrument
+            
         return None
+        
+    def fuzzy_match_instrument(self, text: str) -> Optional[str]:
+        """Fuzzy matching for instruments when OCR has errors"""
+        import difflib
+        
+        # Extract potential instrument words (3+ letters)
+        words = re.findall(r'\b[a-zA-Z]{3,}\b', text.lower())
+        
+        # Common instrument base words for fuzzy matching
+        instrument_keywords = {
+            'Clarinet': ['clarinet', 'clainet', 'clarine', 'klarinet'],
+            'Trumpet': ['trumpet', 'trumpt', 'trompet', 'trumept'],
+            'Flute': ['flute', 'flut', 'flote', 'flaute'],
+            'Saxophone': ['saxophone', 'saxaphone', 'saxophon', 'saxofon'],
+            'Trombone': ['trombone', 'tromabone', 'trombon', 'posane'],
+            'French Horn': ['horn', 'harn', 'waldhorn', 'hrn'],
+            'Tuba': ['tuba', 'tuda', 'toba'],
+            'Percussion': ['percussion', 'percusion', 'timpani', 'pauken'],
+            'Oboe': ['oboe', 'oboe', 'hautbois'],
+            'Bassoon': ['bassoon', 'assoon', 'basson', 'fagott', 'bason'],
+            'Violin': ['violin', 'violen', 'geige'],
+            'Viola': ['viola', 'viala', 'bratsche'],
+            'Cello': ['cello', 'celo', 'violoncello'],
+            'Piano': ['piano', 'pieno', 'klavier'],
+        }
+        
+        best_match = None
+        best_ratio = 0.0
+        
+        for word in words:
+            for instrument, keywords in instrument_keywords.items():
+                for keyword in keywords:
+                    # Use sequence matching for similarity
+                    ratio = difflib.SequenceMatcher(None, word, keyword).ratio()
+                    if ratio > 0.75 and ratio > best_ratio:  # 75% similarity threshold
+                        best_match = instrument
+                        best_ratio = ratio
+                        self.logger.debug(f"Fuzzy match: '{word}' -> '{keyword}' ({ratio:.2f}) = {instrument}")
+                        
+        return best_match
         
     def extract_part_number(self, text: str) -> Optional[str]:
         """Extract part number from text"""
@@ -449,27 +523,49 @@ class SheetMusicProcessor:
         })
         
     def organize_file(self, original_path: Path, metadata: SheetMusicMetadata) -> Path:
-        """Organize file into final directory structure"""
-        # Create directory structure: PieceName/Instrument/PartNumber/
-        piece_dir = self.output_path / metadata.piece_name.replace(" ", "_")
-        instrument_dir = piece_dir / metadata.instrument.replace(" ", "_")
-        part_dir = instrument_dir / metadata.part_number.replace(" ", "_")
+        """Organize file into Piece/Instrument/Part directory structure"""
+        # Sanitize names for filesystem
+        piece_name = self.sanitize_filename(metadata.piece_name)
+        instrument_name = self.sanitize_filename(metadata.instrument)
+        part_name = self.sanitize_filename(metadata.part_number)
         
-        part_dir.mkdir(parents=True, exist_ok=True)
+        # Create directory structure: PieceName/Instrument/
+        piece_dir = self.output_path / piece_name
+        instrument_dir = piece_dir / instrument_name
         
-        # Generate filename
-        filename = metadata.to_filename() + original_path.suffix
-        final_path = part_dir / filename
+        instrument_dir.mkdir(parents=True, exist_ok=True)
         
-        # Copy file
+        # Generate filename with part info
+        base_filename = f"{part_name}_{original_path.stem}"
+        if metadata.key_signature:
+            base_filename = f"{part_name}_{metadata.key_signature}_{original_path.stem}"
+            
+        filename = f"{base_filename}{original_path.suffix}"
+        final_path = instrument_dir / filename
+        
+        # Copy original file (preserving full quality)
         shutil.copy2(original_path, final_path)
         
         # Create metadata file
-        metadata_file = part_dir / f"{filename}.json"
+        metadata_file = instrument_dir / f"{base_filename}.json"
         with open(metadata_file, 'w') as f:
             json.dump(asdict(metadata), f, indent=2)
             
+        self.logger.info(f"Organized: {piece_name}/{instrument_name}/{filename}")
         return final_path
+        
+    def sanitize_filename(self, name: str) -> str:
+        """Sanitize string for use as filename/directory name"""
+        # Replace problematic characters
+        sanitized = re.sub(r'[<>:"/\\|?*]', '_', name)
+        # Remove extra spaces and underscores
+        sanitized = re.sub(r'[_\s]+', '_', sanitized)
+        # Remove leading/trailing underscores
+        sanitized = sanitized.strip('_')
+        # Fallback for empty names
+        if not sanitized:
+            sanitized = "Unknown"
+        return sanitized
         
     def process_file(self, file_path: Path) -> ProcessingResult:
         """Process a single scan file"""
@@ -486,15 +582,20 @@ class SheetMusicProcessor:
                 self.stats['duplicates'] += 1
                 return result
                 
-            # Compress file
+            # Create compressed copy for OCR (original stays untouched)
             compressed_path = self.compress_pdf(file_path)
             result.compressed_size = compressed_path.stat().st_size
             
-            # Extract text with OCR.space
-            extracted_text = self.extract_text_with_ocr(file_path)
+            # Extract text with OCR.space using compressed copy
+            extracted_text = self.extract_text_with_ocr(compressed_path)
             
             # Analyze text for metadata
             metadata = self.analyze_text_for_metadata(extracted_text, file_path)
+            
+            # Clean up compressed copy immediately
+            if compressed_path.exists():
+                compressed_path.unlink()
+                self.logger.debug(f"Deleted OCR copy: {compressed_path.name}")
             result.metadata = metadata
             
             # Quality checks
