@@ -1,0 +1,116 @@
+<script>
+  // Toggle model-specific fields based on selection
+  function toggleModelSpecificFields() {
+    const modelType = document.getElementById('modelType').value;
+    const fvgRdFields = document.getElementById('fvgRdFields');
+    const rdContFields = document.getElementById('rdContFields');
+    
+    // Hide all model-specific fields first
+    fvgRdFields.style.display = 'none';
+    rdContFields.style.display = 'none';
+    
+    // Show relevant fields based on model selection
+    if (modelType === 'FVG-RD') {
+      fvgRdFields.style.display = 'block';
+    } else if (modelType === 'RD-Cont') {
+      rdContFields.style.display = 'block';
+    }
+    
+    updateScorePreview();
+  }
+  
+  // Auto-set FVG Quality based on FVG Type selection
+  function updateFvgQuality() {
+    const fvgType = document.getElementById('fvgType').value;
+    const fvgQuality = document.getElementById('fvgQuality');
+    
+    if (fvgType.includes('FPFVG') && !fvgType.includes('Prev-Day')) {
+      fvgQuality.value = '3'; // Key FVGs
+    } else if (fvgType.includes('Prev-Day')) {
+      fvgQuality.value = '2'; // Previous day variations
+    } else if (fvgType === 'News-FVG' || fvgType === 'Top/Bottom-FVG' || fvgType === 'Macro-FVG') {
+      fvgQuality.value = '2'; // Secondary FVGs
+    } else if (fvgType === 'Strong-FVG' || fvgType === 'Old-FVG') {
+      fvgQuality.value = '1'; // Basic FVGs
+    } else {
+      fvgQuality.value = ''; // Reset if other or none selected
+    }
+    
+    updateScorePreview();
+  }
+  
+  // Update the age factor function
+  function updateAgeFactor() {
+    const ageCategory = document.getElementById('fvgAgeCategory').value;
+    const ageFactorInput = document.getElementById('ageFactor');
+      
+    switch(ageCategory) {
+      case 'same_day_same_session': ageFactorInput.value = '1.0'; break;
+      case 'same_day_prev_session': ageFactorInput.value = '0.95'; break;
+      case 'previous_day': ageFactorInput.value = '0.85'; break;
+      case 'older': ageFactorInput.value = '0.7'; break;
+      default: ageFactorInput.value = ''; break;
+    }
+      
+    updateScorePreview();
+  }
+  
+  // Enhanced score calculation with context factors
+  function updateScorePreview() {
+    const modelType = document.getElementById('modelType').value;
+    const fvgQuality = document.getElementById('fvgQuality').value;
+    const ageFactor = document.getElementById('ageFactor').value;
+    const balanceQuality = document.getElementById('balanceQuality').value;
+    const liquidityRunResistance = document.getElementById('liquidityRunResistance').value;
+    const priceClarity = document.getElementById('priceClarity').value;
+    
+    let modelSpecificScore = 0;
+    let modelComponentCount = 0;
+    let breakdown = '';
+    
+    // Only calculate if we have basic required values
+    if (!modelType || !fvgQuality || !ageFactor) {
+      document.getElementById('finalScoreValue').textContent = '-.-';
+      document.getElementById('qualityTier').textContent = '';
+      document.getElementById('scoreBreakdown').textContent = '';
+      return;
+    }
+    
+    // Rest of the calculation logic
+    // [Keep the existing function implementation]
+  }
+  
+  // Submit the form data to Google Apps Script with improved date handling
+  function submitForm() {
+    const modelType = document.getElementById('modelType').value;
+    
+    // Get trade date and FVG formation date values
+    const tradeDateInput = document.getElementById('tradeDate');
+    const fvgFormationDateInput = document.getElementById('fvgFormationDate');
+    
+    // Validate dates - ensure they're in YYYY-MM-DD format for consistent handling
+    if (!tradeDateInput.value || !fvgFormationDateInput.value) {
+      alert('Please enter both Trade Date and FVG Formation Date');
+      return;
+    }
+    
+    // Create base form data object with common fields
+    const formData = {
+      modelType: modelType,
+      tradeDate: tradeDateInput.value,  // Pass as string in YYYY-MM-DD format
+      fvgFormationDate: fvgFormationDateInput.value,
+      fvgType: document.getElementById('fvgType').value,
+      fvgQuality: document.getElementById('fvgQuality').value,
+      fvgAgeCategory: document.getElementById('fvgAgeCategory').value,
+      ageFactor: document.getElementById('ageFactor').value,
+      balanceQuality: document.getElementById('balanceQuality').value,
+      notes: document.getElementById('notes').value,
+      // Market context factors
+      liquidityRunResistance: document.getElementById('liquidityRunResistance').value,
+      priceClarity: document.getElementById('priceClarity').value
+    };
+    
+    // Rest of the form submission logic 
+    // [Keep the existing function implementation]
+  }
+</script>

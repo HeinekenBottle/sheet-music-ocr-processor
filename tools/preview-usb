@@ -1,0 +1,3 @@
+#!/bin/bash
+# USB Preview - V2 System
+exec ~/usb-workflow-v2 preview "$@"

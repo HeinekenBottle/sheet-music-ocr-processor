@@ -1,0 +1,3 @@
+#!/bin/bash
+# OCR.space organizer for raw scanned PDFs - No Cloud App needed
+exec ~/sheet-music-project/tools/organize_ocr.sh "$@"

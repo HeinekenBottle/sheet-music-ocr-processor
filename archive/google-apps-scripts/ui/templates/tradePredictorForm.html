@@ -1,0 +1,64 @@
+<div class="trade-form">
+  <div class="form-group">
+    <label class="form-label">Model Type</label>
+    <select id="modelType" class="form-dropdown">
+      <option value="">Select Model</option>
+      <%= modelTypes.map(type => `<option value="${type}">${type}</option>`).join('') %>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label class="form-label">Session</label>
+    <select id="session" class="form-dropdown">
+      <option value="">Select Session</option>
+      <%= sessions.map(s => `<option value="${s}">${s}</option>`).join('') %>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label class="form-label">Quality Score (0-5)</label>
+    <input type="number" 
+           id="qualityScore" 
+           class="form-input" 
+           min="0" 
+           max="5" 
+           step="0.1">
+  </div>
+
+  <div class="form-group">
+    <label class="form-label">Current Price</label>
+    <input type="number" 
+           id="currentPrice" 
+           class="form-input" 
+           min="0" 
+           step="0.00001">
+  </div>
+
+  <div class="form-group">
+    <label class="form-label">Volatility</label>
+    <select id="volatility" class="form-dropdown">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label class="form-label">Account Balance</label>
+    <input type="number" 
+           id="accountBalance" 
+           class="form-input" 
+           min="0">
+  </div>
+
+  <div class="form-group">
+    <label class="form-label">Max Risk %</label>
+    <input type="number" 
+           id="maxRisk" 
+           class="form-input" 
+           min="0.1" 
+           max="5" 
+           step="0.1" 
+           value="1">
+  </div>
+</div>

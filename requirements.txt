@@ -1,24 +1,32 @@
-# Sheet Music Digitization System Dependencies
-# Core system requirements for OCR, PDF processing, and file organization
+# Sheet Music OCR Processing System Dependencies
+# Core requirements for OCR.space-based sheet music digitization
 
 # HTTP requests for OCR.space API
 requests>=2.28.0
 
+# Image processing and PDF conversion
+Pillow>=9.0.0
+pdf2image>=3.1.0
+
 # PDF processing and metadata manipulation
-pypdf>=3.0.0
+PyPDF2>=3.0.0
 
-# Optional: Enhanced OCR capabilities
-# tesseract-python>=0.1.0
-# opencv-python>=4.7.0
-
-# Development and testing
+# Development and testing (optional)
 # pytest>=7.0.0
 # black>=22.0.0
 # flake8>=5.0.0
 
-# Note: This system uses only Python standard library plus:
-# - requests: For OCR.space API calls
-# - pypdf: For PDF metadata and processing
-# All other functionality uses built-in modules:
-# - pathlib, os, sys, re, json, time, logging, shutil
-# - typing, dataclasses, datetime
+# System Requirements:
+# - Python 3.8+
+# - poppler-utils (for pdf2image) - see installation notes below
+# - OCR.space API key (free tier available)
+
+# Installation on macOS (2015 MacBook compatible):
+# 1. Install poppler manually:
+#    - Download from: https://poppler.freedesktop.org/
+#    - Or use MacPorts: sudo port install poppler
+#    - Or download pre-built binaries and add to PATH
+# 2. pip install -r requirements.txt
+
+# Alternative: Remove pdf2image dependency and process images directly
+# (modify code to handle .tif/.png files without PDF conversion)
